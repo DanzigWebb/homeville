@@ -1,0 +1,44 @@
+// хедер
+.header-site
+  position: absolute
+  top: 0
+  width: 100%
+.header-flex
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  height: 200px
+.header__logo
+  margin-right: 80px
+  font-weight: 900
+  color: #fff
+  font-size: 25px
+.header-menu
+  display: flex
+  justify-content: flex-start
+  flex-wrap: wrap
+.header-menu__link
+  margin-right: 40px
+  color: $gray
+  text-decoration: none
+  transition: 0.3s
+.header-menu__link:hover
+  color: #fff
+.header-menu__link--active
+  color: #fff
+
+.header-site
+  .hamburger
+    display: none
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after
+      background: #fff
+
+
+@media (max-width: 985px)
+  .header-menu
+    display: none
+  .header-site
+    .hamburger
+      display: block
+  .header-flex
+    justify-content: space-between

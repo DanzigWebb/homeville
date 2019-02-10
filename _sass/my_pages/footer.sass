@@ -1,0 +1,56 @@
+// футер
+
+.site-footer
+  background-color: #262626
+
+.footer-wrap
+  display: flex
+  justify-content: space-between
+  padding: 60px 15px
+  
+.footer-item
+  width: 32%
+.footer-descript
+  width: 25%
+  padding-right: 25px
+.footer-descript__title
+  color: #fff
+.footer-soc-links
+  margin: auto
+  text-align: center
+  padding-top: 10px
+
+  
+.footer-item-box
+  display: flex
+  justify-content: space-between
+  width: 75%
+.footer-item__title
+  color: #fff
+.footer-item__link
+  color: $accent
+  font-size: 14px
+  text-decoration: none
+  transition: 0.3s
+  display: block
+  margin-bottom: 10px
+.footer-item__link:hover
+  color: #fff
+  
+@media (max-width: 760px)
+  .footer-wrap
+    flex-direction: column
+    justify-content: center
+  .footer-item-box
+    width: 100%
+  .footer-descript
+    width: 75%
+    margin-bottom: 20px
+  .footer-soc-links
+    text-align: left
+@media (max-width: 540px)
+  .footer-item-box
+    flex-direction: column
+    justify-content: center
+  .footer-item
+    width: 90%

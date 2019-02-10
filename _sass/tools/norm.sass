@@ -1,0 +1,70 @@
+.body-site
+  font-family: 'Lato', sans-serif
+  position: relative
+  margin: 0
+
+// основные
+
+.container
+  max-width: 1200px
+  padding: 0 15px
+  margin: auto
+  
+// кнопка
+
+.main-btn
+  background-color: $accent
+  padding: 15px 25px
+  border-radius: 5px
+  border: 2px solid $accent
+  color: #fff
+  text-decoration: none
+  transition: 0.3s
+.main-btn:hover
+  background-color: #fff
+  color: #000
+  
+.main-btn--reverse
+  background-color: #fff
+  color: #333333
+  font-weight: 700
+.main-btn--reverse:hover
+  background-color: $accent
+  color: #fff
+// типографика
+
+.title-one
+  font-size: 60px
+  font-weight: 700
+  line-height: 1.1
+.title-second
+  font-size: 37px
+  font-weight: 700
+  line-height: 1.2
+  letter-spacing: 0px
+.title-third
+  font-size: 30px
+  font-weight: 700
+  line-height: 1.2
+  letter-spacing: 0px
+.title-four
+  font-size: 20px
+  color: $h-color
+@media (max-width: 500px)
+  .title-one
+    font-size: 42px
+  .title-second
+    font-size: 28px
+  .title-third
+    font-size: 24px
+  .title-four
+    font-size: 18px
+  
+.p-normal
+  font-size: 18px
+  color: $p-color
+.p-small
+  font-size: 14px
+  color: $gray
+.h-color
+  color: $h-color

@@ -1,0 +1,243 @@
+// главный экран
+  
+.main-screen
+  height: 860px
+  background-image: url(https://template66387.motopreview.com/mt-demo/66300/66387/mt-content/uploads/2018/02/mt-1359-content-bg01.jpg)
+  background-size: cover
+  color: #fff
+  display: flex
+  align-items: center
+.main-screen-wrap
+  padding-top: 150px
+  display: flex
+  justify-content: flex-start
+.screen-soc-links, .soc-links
+  padding-top: 40px
+  margin-right: 50px
+  .fab
+    margin-right: 30px
+    transition: 0.3s
+    font-size: 13px
+    color: #fff
+  .fab:hover
+    color: $accent
+.screen-heading
+  width: 60%
+.screen__title
+  margin: 0
+  padding-bottom: 40px
+.screen-heading__link
+  color: #fff
+  text-decoration: none
+  transition: 0.3s
+.screen-heading__link:hover
+  color: $accent
+  
+@media (max-width: 540px)
+  .main-screen-wrap
+    flex-direction: column
+    text-align: center
+  .screen-heading
+    width: 100%
+  .screen-soc-links
+    margin: 0
+    
+// о компании
+.about-wrap
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 100px 15px
+.about-heading
+  width: 50%
+.about-heading__top
+  font-size: 16px
+.about-heading__title
+  margin: 0
+.about-heading-text
+  margin-bottom: 40px
+ 
+.about-numbers-box
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 100%
+.about-numbers-item
+  width: 50%
+  text-align: center
+.about-numbers-item__title
+  margin: 0
+  font-weight: 400
+.about-numbers-item__text
+  color: $gray
+
+@media (max-width: 660px)
+  .about-wrap
+    flex-direction: column
+    padding: 40px 15px
+  .about-heading
+    width: 100%
+    margin-bottom: 40px
+    
+    
+.backg-fixed
+  background-image: url(https://template66387.motopreview.com/mt-demo/66300/66387/mt-content/uploads/2018/02/mt-1359-content-bg02.jpg)
+  height: 400px
+  background-size: cover
+  background-attachment: fixed
+  
+// услуги
+.services-wrap
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 80px 15px
+.services-heading
+  padding-right: 20px
+.services-heading__top
+  font-size: 16px
+.services-heading__title
+  margin: 0
+
+.services-box
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+.services-box-item
+  margin-right: 10px
+.services-box-item__title
+  text-decoration: none
+  transition: 0.3s
+  font-weight: 600
+.services-box-item__title:hover
+  color: $accent
+
+.services-box-item__txt, .services-heading__par
+  color: #828282
+  
+  
+@media (max-width: 810px)
+  .services-wrap
+    flex-direction: column
+  .services-heading
+    margin-bottom: 40px
+    
+@media (max-width: 590px)
+  .services-wrap
+    padding: 40px 15px
+  .services-box
+    flex-wrap: wrap
+  .services-box-item
+    width: 33%
+@media (max-width: 400px)
+  .services-box-item
+    width: 98%
+    
+// ссылки
+
+.mainlinks
+  background-color: #f2f2f2
+.mainlinks-wrap
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+  padding: 80px 15px
+.mainlinks-item
+  margin-right: 30px
+  display: grid
+  width: 49%
+.mainlinks-item__title
+  margin-bottom: 15px
+  color: $h-color
+.mainlinks-item__link
+  margin-bottom: 10px
+  font-size: 14px
+  color: $accent
+  text-decoration: none
+  transition: 0.3s
+.mainlinks-item__link:hover
+  color: #000
+.mainlinks-item__text
+  color: #828282
+  font-size: 14px
+  margin-bottom: 22px
+  
+@media (max-width: 1100px)
+  .mainlinks-item__title
+    font-size: 26px
+@media (max-width: 980px)
+  .mainlinks-item__title
+    font-size: 22px
+  .mainlinks-item
+    margin-right: 10px
+@media (max-width: 810px)
+  .mainlinks-wrap
+    flex-wrap: wrap
+  .mainlinks-item
+    width: 47%
+  .mainlinks-item
+    margin-right: 10px
+@media (max-width: 440px)
+  .mainlinks-item
+    width: 90%
+  .mainlinks-wrap
+    padding: 40px 15px
+    
+// галерея
+    
+.gallery-wrap
+  text-align: center
+  padding: 60px 15px
+.gallery-heading__title
+  margin: 0
+  margin-bottom: 30px
+  
+.gallery-carousel
+  margin-bottom: 60px
+
+.gallery-box__item
+  height: 250px
+  background-size: cover
+  margin: 5px
+  transition: 0.6s
+  position: relative
+.gallery-box__item:hover
+  background: $accent
+    
+  
+.gallery-box__item--pic1
+  background-image: url(https://template66387.motopreview.com/mt-demo/66300/66387/mt-content/uploads/2018/02/mt-1359-gallery-img01-bg.jpg)
+.gallery-box__item--pic2
+  background-image: url(https://template66387.motopreview.com/mt-demo/66300/66387/mt-content/uploads/2018/02/mt-1359-home-img02.jpg)
+.gallery-box__item--pic3
+  background-image: url(https://template66387.motopreview.com/mt-demo/66300/66387/mt-content/uploads/2018/02/mt-1359-gallery-img03-bg.jpg)
+  
+// новости
+  
+.lastposts-wrap
+  text-align: center
+  padding: 60px 15px
+.lastposts-box
+  display: flex
+  align-items: flex-start
+  justify-content: center
+.lastposts-item
+  width: 32%
+  margin: 5px
+.lastposts-item__pic
+  width: 100%
+  height: auto
+.lastposts-item__subscr
+  margin-top: 15px
+  font-size: 20px
+  font-weight: 700
+  text-decoration: none
+  color: $p-color
+  transition: 0.3s
+.lastposts-item__subscr:hover
+  color: $accent
+  
+@media (max-width: 500px)
+  .lastposts-item__subscr
+    font-weight: normal
+    font-size: 13px
